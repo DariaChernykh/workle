@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+public/*.css
+public/*.js
+
+# Project exclude paths
+/public/

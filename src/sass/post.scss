@@ -1,0 +1,50 @@
+.post {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+
+  @media screen and (min-width: 480px) {
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    max-width: 440px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    width: 320px;
+  }
+
+  &__user {
+    padding: 10px;
+  }
+
+  &__content {
+    max-width: 100%;
+  }
+
+  &__photo {
+    height: auto;
+    width: 100%;
+  }
+
+  &__likes {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  &__likes-number {
+    color: #8D8D8D;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  &__likes-icon {
+    margin-left: 5px;
+  }
+}

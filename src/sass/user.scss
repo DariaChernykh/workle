@@ -1,0 +1,30 @@
+.user {
+  align-items: center;
+  display: flex;
+
+  &__avatar {
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+  }
+
+  &__info {
+    display: inline-block;
+  }
+
+  &__name {
+    color: #333333;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  &__desc {
+    color: #8D8D8D;
+    display: block;
+  }
+}
